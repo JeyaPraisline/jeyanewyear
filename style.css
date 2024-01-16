@@ -1,0 +1,35 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background-image: url('https://t4.ftcdn.net/jpg/02/40/00/41/360_F_240004186_XesyhntPKicoU9DLfGDnL4tkJrIEAKxY.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.countdown{
+    display: flex;
+}
+.countdown .time{   
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px ;
+}
+.time small{
+    font-size: 30px;
+}
+.year h1{
+    font-size: 45px;
+    position: absolute;
+    top: 50px;
+    opacity: 0.7;
+}
